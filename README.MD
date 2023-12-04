@@ -6,7 +6,7 @@ Enables WebSQL functionality on top of a SQLite library. This repo is based on t
 ## Supported Platforms
 This plugin only supports the `windows` platform, since most other platforms (`ios`, `android`, etc.) already support WebSQL natively.
 
-You can also combine this plugin with the [asynchronous IndexedDB plugin](https://github.com/ABB-Austin/cordova-plugin-indexeddb-async).  Together, they  enable IndexedDB support for the `ios`, `android`, `windows`, and `browser` platforms.
+You can also combine this plugin with the [asynchronous IndexedDB plugin](https://github.com/hitachienergy/cordova-plugin-indexeddb-async).  Together, they  enable IndexedDB support for the `ios`, `android`, `windows`, and `browser` platforms.
 
 ## Installation
 Install via the [Cordova CLI](https://cordova.apache.org/docs/en/edge/guide_cli_index.md.html).
@@ -23,7 +23,7 @@ For __Cordova CLI 5.x__, use the [new npm syntax](https://github.com/cordova/apa
 cordova plugin add cordova-plugin-websql-async
 ````
 
-Or just install the [asynchronous IndexedDB plugin](https://github.com/ABB-Austin/cordova-plugin-indexeddb-async), which automatically installs this plugin as a dependency.
+Or just install the [asynchronous IndexedDB plugin](https://github.com/hitachienergy/cordova-plugin-indexeddb-async), which automatically installs this plugin as a dependency.
 
 
 ## Build
